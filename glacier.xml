@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Kernel -->
+    <project name="MTOS/android_kernel_htc_msm7x30-3.0" path="kernel/htc/msm7x30" revision="lollipop-5.1" />
+
+    <!-- Qualcomm -->
+    <project name="MTOS/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="lollipop-5.1" />
+    <project name="MTOS/android_hardware_qcom_media-legacy" path="hardware/qcom/media-caf/msm7x30" revision="lollipop-5.1" />
+    <project name="MTOS/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-caf/msm7x30" revision="lollipop" />
+
+    <!-- Vendor files -->
+    <project name="MTOS/android_vendor_htc" path="vendor/htc" revision="lollipop-5.1" />
+
+    <!-- Device files -->
+    <project name="glacierpop2/android_device_htc_glacier" path="device/htc/glacier" revision="lollipop-5.1" />
+    <project name="glacierpop2/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="lollipop-5.1" />
+
+    <!-- TWRP -->
+    <remove-project name="CyanogenMod/android_bootable_recovery"/>
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1"/>
+</manifest>
