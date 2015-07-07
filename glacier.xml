@@ -3,7 +3,7 @@
     
     <!-- Replace CM Projects -->
     <remove-project name="CyanogenMod/android_system_vold"/>
-    <project name="glacierpop2/android_system_vold" remote="github" revision="cm-12.1"
+    <project name="mtos/android_system_vold" remote="github" revision="cm-12.1"
 
     <!-- Kernel -->
     <project name="MTOS/android_kernel_htc_msm7x30-3.0" path="kernel/htc/msm7x30-3.0" revision="lollipop-5.1" />
@@ -17,8 +17,8 @@
     <project name="MTOS/android_vendor_htc" path="vendor/htc" revision="lollipop-5.1" />
 
     <!-- Device files -->
-    <project name="glacierpop2/android_device_htc_glacier" path="device/htc/glacier" revision="lollipop-5.1" />
-    <project name="glacierpop2/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="lollipop-5.1" />
+    <project name="mtos/android_device_htc_glacier" path="device/htc/glacier" revision="lollipop-5.1" />
+    <project name="mtos/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="lollipop-5.1" />
 
     <!-- TWRP -->
     <remove-project name="CyanogenMod/android_bootable_recovery"/>
